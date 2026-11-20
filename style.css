@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: Black;
+    background-color: rgb(54, 55, 37);
     margin: 0;
     padding: 30px;
 }
@@ -9,10 +9,10 @@ body {
 .game-container {
     width: 350px;
     margin: auto;
-    background-color: #1c1c1c;
-    padding: 20px;
+    background-color: black;
+    padding: 40px;
     border: 2px solid Gold;
-    border-radius: 15px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -59,7 +59,8 @@ button:hover {
 }
 
 #restartButton {
-    background-color: DarkSlateGray;
+    background-color: Gold;
+    color: Black;
 }
 
 button:disabled {
