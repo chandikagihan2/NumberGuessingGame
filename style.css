@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: AliceBlue;
+    margin: 0;
+    padding: 30px;
+}
+
+.game-container {
+    width: 350px;
+    margin: auto;
+    background-color: White;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: Navy;
+}
+
+.description {
+    color: Gray;
+    font-size: 14px;
+}
+
+#guessInput {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid Silver;
+    border-radius: 5px;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background-color: RoyalBlue;
+    color: White;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#message {
+    color: Green;
+    font-weight: bold;
+}
+
+#attempts {
+    color: Gray;
+}
+
+#restartButton {
+    background-color: DarkSlateGray;
+}
