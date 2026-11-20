@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: AliceBlue;
+    background-color: Black;
     margin: 0;
     padding: 30px;
 }
@@ -9,18 +9,19 @@ body {
 .game-container {
     width: 350px;
     margin: auto;
-    background-color: White;
+    background-color: #1c1c1c;
     padding: 20px;
-    border-radius: 10px;
+    border: 2px solid Gold;
+    border-radius: 15px;
     text-align: center;
 }
 
 h1 {
-    color: Navy;
+    color: gold;
 }
 
 .description {
-    color: Gray;
+    color: white;
     font-size: 14px;
 }
 
@@ -35,12 +36,17 @@ h1 {
 button {
     width: 95%;
     padding: 10px;
-    background-color: RoyalBlue;
-    color: White;
+    background-color: Gold;
+    color: Black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: GoldenRod;
 }
 
 #message {
@@ -54,10 +60,6 @@ button {
 
 #restartButton {
     background-color: DarkSlateGray;
-}
-
-button:hover {
-    background-color: DarkBlue;
 }
 
 button:disabled {
